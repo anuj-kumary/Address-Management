@@ -1,0 +1,31 @@
+@import url("https://eagleui.netlify.app/css/component.css");
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: auto;
+  width: 25rem;
+  padding: 1rem;
+}
+.cards {
+  position: absolute;
+  background: #fff;
+  top: 7rem;
+  z-index: 10;
+}
+.action-btn {
+  text-align: center;
+}
+.btn {
+  margin: 1rem 1rem 0 0;
+}
